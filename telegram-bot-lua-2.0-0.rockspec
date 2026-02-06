@@ -19,7 +19,8 @@ supported_platforms = {
     "linux",
     "macosx",
     "unix",
-    "bsd"
+    "bsd",
+    "win32"
 }
 
 dependencies = {
