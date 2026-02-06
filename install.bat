@@ -99,7 +99,8 @@ pushd testproject
 luarocks install --tree lua_modules ^
                  --lua-dir %LUA_HOME% ^
                  OPENSSL_DIR=%TEMP%\external-openssl-win64-3.4.1 ^
-    https://raw.githubusercontent.com/ivansoft/telegram-bot-lua-win32/refs/heads/main/telegram-bot-lua-2.0-0.rockspec 
+    https://raw.githubusercontent.com/qlua-project/telegram-bot-lua/refs/heads/main/telegram-bot-lua-2.0-0.rockspec
+    ::../telegram-bot-lua-2.0-0.rockspec
 popd
 
 echo -----------------------------------
