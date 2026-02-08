@@ -24,12 +24,13 @@ supported_platforms = {
 }
 
 dependencies = {
+    "lua >= 5.3",
+
     "dkjson >= 2.5-2",
     "lpeg >= 1.0.1-1",
     "luasec >= 0.6-1",
     "luasocket >= 3.0rc1-2",
     "multipart-post >= 1.1-1",
-    "luautf8 >= 0.1.1-1",
     "html-entities >= 1.3.1-0"
 }
 
